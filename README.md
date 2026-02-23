@@ -61,14 +61,14 @@ npm test
 Скрипт test в package.json настроен на запуск Mocha с конфигурацией из config/mocharc.json.
 
 ## Что покрыто автотестами
-Positive cases:
+# Positive cases:
 1. setting and getting username/password
 2. isUsernameEmpty/isPasswordEmpty return FALSE when the fields are filled in
 3. verification of a correctly completed form
 4. login return success: the login form has been completed correctly
 5. Checking the format of valid username
 6. Checking the format of valid password
-Boundaries values:
+# Boundaries values:
 1. checking the boundary values for username field: 7 chars
 2. checking the boundary values for username field: 8 chars
 3. checking the boundary values for username field: 9 chars
@@ -81,7 +81,7 @@ Boundaries values:
 10. checking the boundary values for password field: 24 chars
 11. checking the boundary values for password field: 25 chars
 12. checking the boundary values for password field: 26 chars
-Negative cases:
+# Negative cases:
 1. short username length and valid password length
 2. long username length and valid password length
 3. short password length and valid username length
