@@ -1,0 +1,6 @@
+*.js
+/cache
+compiled/
+node_modules/
+reports
+.vscode
